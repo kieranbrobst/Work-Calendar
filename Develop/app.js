@@ -13,7 +13,7 @@ $(document).ready(function (){
 
         if (currentHour > time) {
             $(`#${time}`).addClass("past")
-            $(`#${time}`).attr("disabled", true)
+            $(`#${time}`).attr("disabled", true) 
         } else if (currentHour === time) {
             $(`#${time}`).addClass("present")
         } else {

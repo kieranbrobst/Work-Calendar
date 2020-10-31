@@ -13,10 +13,6 @@ textarea {
   padding: 10px;
 }
 
-span {
-  width: 75px;
-}
-
 .jumbotron {
   text-align: center;
   background-color: transparent;
@@ -25,9 +21,9 @@ span {
   border-bottom: 10px solid black;
 }
 
-/* .description{
+.description{
   white-space: pre-wrap;
-} */
+}
 
 .time-block{
   text-align: center;
@@ -52,7 +48,7 @@ span {
 
 .past {
   background-color: #d3d3d3;
-  color: white;
+  color: gray;
 }
 
 .present {
@@ -66,7 +62,7 @@ span {
 }
 
 .saveBtn {
-  border-left: 1px solid black;
+  border-left: 2px solid black;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   background-color: #06AED5;
